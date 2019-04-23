@@ -1,6 +1,6 @@
 const express = require ('express');
 const router = express.Router();
-const Todo = require('../models/todo');
+const Todo = require('../models/todos');
 
 router.get('/todos', (req, res, next) => {
 //this will return all the data, exposing only the id and action field to the client

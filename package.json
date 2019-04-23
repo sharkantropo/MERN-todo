@@ -1,0 +1,33 @@
+{
+  "name": "mern-todo",
+  "version": "1.0.0",
+  "description": "MERN stack todo list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharkantropo/MERN-todo.git"
+  },
+  "keywords": [
+    "MERN",
+    "stack",
+    "javascript"
+  ],
+  "author": "Marko Michinaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharkantropo/MERN-todo/issues"
+  },
+  "homepage": "https://github.com/sharkantropo/MERN-todo#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}

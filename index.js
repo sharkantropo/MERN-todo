@@ -28,10 +28,6 @@ app.use((req, res, next) => {
 	next();
 });
 
-app.use((req, res, next) => {
-	res.send('Welcome to Express');
-});
-
 app.use(bodyParser.json());
 
 app.use('/api', routes);

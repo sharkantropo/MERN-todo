@@ -54,6 +54,55 @@ li {
   cursor: pointer;
 }
 
+p
+{
+	text-align: center;
+}
+
+
+.backdrop
+{
+	position: fixed;
+	display: flex;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.3);
+	padding: 50;
+}
+
+.modal
+{
+	background: #282c34;
+	border-radius: 6px;
+	width: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10;
+}
+
+
+.modal> h2
+{
+	margin-top: 10%;
+}
+
+.modal>input
+{
+	margin:5%;
+	max-width: 90%;
+}
+
+
+.edit_buttons
+{
+	display: flex;
+	justify-content: center;
+}
+
 @media only screen and (min-width: 300px) {
   .App {
     width: 80%;

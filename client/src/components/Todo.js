@@ -44,7 +44,7 @@ class Todo extends Component {
       <div>
         <h1>My Todo(s)</h1>
         <Input getTodos={this.getTodos}/>
-        <ListTodo todos={todos} deleteTodo={this.deleteTodo}/>
+        <ListTodo todos={todos} getTodos={this.getTodos} deleteTodo={this.deleteTodo}/>
       </div>
     )
   }

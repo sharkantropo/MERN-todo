@@ -21,6 +21,21 @@ router.post('/todos', (req, res, next) => {
 	}
 });
 
+router.put('/todos', (req,res,next)=>
+{
+	if(req.body.action)
+	{
+		Todo.findByIdAndUpdate(req.body.id, { action: req.body.action  })
+			.then(data=> res.json(data))
+			.catch(next);
+	}else {
+		res.json({ error: "The update input field is empty" });
+	}
+	
+});
+
+
+
 router.delete('/todos/:id', (req, res, next) => {
 	Todo.findOneAndDelete({"_id": req.params.id})
 		.then(data => res.json(data))

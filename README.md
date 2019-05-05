@@ -1,2 +1,2 @@
 # MERN-todo
-A todo list developed with MERN stack
+A pretty simple todo list developed with MERN stack
